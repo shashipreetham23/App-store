@@ -331,6 +331,7 @@ class AppStore extends Component {
     const {searchInput, activeTabId} = this.state
     const searchResults = this.getSearchResults()
     const filteredApps = this.getActiveTabApps(searchResults)
+    console.log(searchInput)
 
     return (
       <div className="app-container">
